@@ -3,9 +3,9 @@ Useful scripts for DAMASK Cristal Plastisity
 
 DAMASK simulation include three steps:
 Pre-processing
-1. Create material.yaml
-2. Create load.yaml
-3. Create geom.vti
+1. Create geom.vti
+3. Create load.yaml
+4. Create material.yaml
 
 Processing
 1. For Grid solver:
