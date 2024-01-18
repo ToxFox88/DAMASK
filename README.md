@@ -6,9 +6,9 @@ Pre-processing
 1. Create geom.vti
 Necessary scripts and software: Neper, polycristalmaker.ipynb, Paraview. 
   -----------------
-  1 Use polycristalmaker to make a grid with necessary size, cells and origin. 
+  1. Use polycristalmaker to make a grid with necessary size, cells and origin. 
 
-  2 Use Neper to create specific geometry and sort grains if needed. 
+  2. Use Neper to create specific geometry and sort grains if needed. 
 
   3. Use Paraview to convert .vti from polycristalmaker to .vtk in ASCII and conver Binary .vtk to ASCII .vtk. 
 
