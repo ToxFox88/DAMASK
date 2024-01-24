@@ -12,7 +12,7 @@ Necessary scripts and software: Neper, polycristalmaker.ipynb, Paraview.
 
   2. Use Neper to create specific geometry and sort grains if needed. 
 
-  3. Use Paraview to convert .vti from polycristalmaker to .vtk in ASCII and conver Binary .vtk to ASCII .vtk. 
+  3. Use Paraview to convert .vti from polycristalmaker to .vtk in ASCII and convert Binary .vtk to ASCII .vtk. 
 
   4. Copy table from Neper .vtk to the polycristalmaker .vtk
 
@@ -25,7 +25,7 @@ Necessary scripts and software: Neper, polycristalmaker.ipynb, Paraview.
   Feel free to change load.yaml as you wish but there are some notices:
   1. N is the number of incremets (kind of iterations) which affects on the precision of solving.
 
-  2. dop_F matrix components can be changed to increase or decrease deformation which affects on the material per unit of time.
+  2. dot_F matrix components can be changed to increase or decrease deformation which affects on the material per unit of time.
 
   3. t is the number of units of time the deformation affects the material. It can be increased in order to achieve larger deformation ratio as well as the dot_F matrix components value.
 
