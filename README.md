@@ -8,15 +8,12 @@ Necessary scripts and software: Neper, polycristalmaker.ipynb, Paraview.
 
   -----------------
   This file could be generated in two ways: the easiest way is to create the necessery grid with polycrystalmaker.ipynb script but the quantity of such a grid could be unacceptable. The second way is generate it with Neper software: 
-  1. Use polycristalmaker to make a grid with necessary size, cells and origin. 
 
-  2. Use Neper to create specific geometry and sort grains if needed. 
+  1. Use Neper to create specific geometry and sort grains if needed. 
 
-  3. Use Paraview to convert .vti from polycristalmaker to .vtk in ASCII and convert Binary .vtk to ASCII .vtk. 
+  2. Use Paraview to convert Binary .vtk to ASCII .vtk. 
 
-  4. Copy table from Neper .vtk to the polycristalmaker .vtk
-
-  5. Convert .vtk to .vti with polycristalmaker.ipynb
+  3. Convert .vtk to .vti with Geom.ipynb
   ----------------
   
 2. Create load.yaml
