@@ -49,7 +49,7 @@ DAMASK_grid --material material.yaml --geom geom.vti --load load.yaml
 **tbd**
 
 Post-processing
-1. Modificate HDF5 result file with Dereviedquant.yaml in order to add necessary parameters for visualisation: IPF, Mises stress, Cauchy stress and export .vti files.
+1. Modificate HDF5 result file with Modificate.yaml in order to add necessary parameters for visualisation: IPF, Mises stress, Cauchy stress and export .vti files.
 2. Visualize .vti files in Paraview (set necessary parameter e.g. IPF and Surface mod) also use "Warp by vector" function to visualize deformation.
 3. Export orients in Euler by ConverttoEuler.yaml
 4. Build pole figures with post.m MTEX script.
