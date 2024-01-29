@@ -11,9 +11,7 @@ Necessary scripts and software: Neper, polycristalmaker.ipynb, Paraview.
 
   1. Use Neper to create specific geometry and sort grains if needed. 
 
-  2. Use Paraview to convert Binary .vtk to ASCII .vtk. 
-
-  3. Convert .vtk to .vti with Geom.ipynb
+  2. Convert .vtk to .vti with Geom.ipynb
   ----------------
   
 2. Create load.yaml
