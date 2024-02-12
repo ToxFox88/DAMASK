@@ -19,6 +19,7 @@ while (100*V/sumV)<v
      if n = i
       V++
       N[g-i]=i
+# Вывод данных:
 V
 N
 
